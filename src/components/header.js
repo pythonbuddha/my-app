@@ -20,7 +20,7 @@ function Header(){
                     <div class="logo_container">MY<span>APP</span></div>
 
                     <div class="navigation">
-                        <div class="products" ><AddShoppingCart/><Link to="/products">Produkte</Link></div>
+                        <div class="products" ><AddShoppingCart/><Link className={} to="/products">Produkte</Link></div>
                         <div class="solutions"><EmojiObjects/><Link to="/solutions">Lösungen</Link></div>
                         <div class="tools"><Build/><Link to="/tools">Tools</Link></div>
                         <div class="company"><BusinessSharp/><Link to="/company">Unternehmen</Link></div>
