@@ -1,0 +1,37 @@
+1. make a folder in yourdrive
+2. copy path of directory from GutHub
+3. right click Git Bash and then start following command:
+
+git clone https://github.com/pythonbuddha/my-app.git
+
+4. create branch inside the folder
+git branch desktop_change (git branch <branch name>)
+
+6. To get name of all the branches inside of your repository:
+git branch
+
+7.  To enter inside the branch / swith the branch:
+git checkout desktop_change (git checkout desktop_change)
+
+8.  To know what has been changed in Repository
+
+git status
+
+9. Add files to commit
+
+git add .
+
+10. commit your changes
+
+git commit -m "Unternehmen.js is now company.js and header color is now red" 
+(git commit -m <"your message">
+
+
+11. Upload the changes at your GitHub repository
+
+git push
+git push --set-upstream origin <branch_name>
+
+12. To undo your changes
+
+git checkout <file_name with its full path>
